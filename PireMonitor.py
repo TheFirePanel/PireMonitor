@@ -1,3 +1,9 @@
+#####################################################
+#                PireMonitor Beta 1.0               #
+#               Designed by Zach Fleck              #
+# https://bitbucket.org/TheAlmightyZach/piremonitor #
+#####################################################
+
 #Save an Event Log
 import logging
 logging.basicConfig(filename='Fire_Monitor.log',level=logging.DEBUG)
