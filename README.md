@@ -14,11 +14,11 @@ Let's get started with Youre PireMonitor setup!
 * Connect the associated Normally Open (NO) contact on the relay to Pin 6 on your Pi (Ground)
 
 + Download and place the Python script on your Raspberry Pi, be sure to edit information in the file. Information you will need to edit is as follows:
-* SMTP Server
-* myEmail
-* toEmail
-* EMAIL\_PASS
-* Addresses in all messages (If you choose to keep the address, you can set the message to whatever you like)
+	* SMTP Server
+	* myEmail
+	* toEmail
+	* EMAIL\_PASS
+	* Addresses in all messages (If you choose to keep the address, you can set the message to whatever you like)
 
 - Run the script! By default it will not print out any messages, but rather save any events in Fire\_Monitor.log in the same directory as the script.
 * I recommend using forever to run the script, and also setting it up to boot with the Pi!
@@ -31,6 +31,6 @@ Let's get started with Youre PireMonitor setup!
 ### What's coming in the future? ###
 
 + I have some plans of how I want to improve this!
-* Add a way to supervise the GPIO circuits, causing a trouble if a wire is not connected
-* Come up with a more effective method for constantly searching to see if the state of a relay has changed (less ram heavy)
-* Clean up the code, and make install easier if possible!
+	* Add a way to supervise the GPIO circuits, causing a trouble if a wire is not connected
+	* Come up with a more effective method for constantly searching to see if the state of a relay has changed (less ram heavy)
+	* Clean up the code, and make install easier if possible!
