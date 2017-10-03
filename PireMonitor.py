@@ -53,7 +53,7 @@ def supervisoryAlarmActive():
     server.sendmail(myEmail, toEmail, SAAMessage)
 
 def supervisoryAlarmRestore():
-    SARMessage = 'Subject: {}\n\n{}'.format("Supervisory Monitory Restored", "A Supervisory Signal has been restored at 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
+    SARMessage = 'Subject: {}\n\n{}'.format("Supervisory Monitor Restored", "A Supervisory Signal has been restored at 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
     server.sendmail(myEmail, toEmail, SARMessage)
 
 #Log System Monitor Online
