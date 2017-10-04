@@ -33,7 +33,7 @@ server.login(myEmail, "EMAIL_PASS")
 
 #Email Functions                    ***Replace placeholder address here in all messages! (Find and Replace may be helpful!)***
 def fireAlarmActive():
-    FAAMessage = 'Subject: {}\n\n{}'.format("Fire Alarm Active", "A Fire Alarm Signal has been recieved at 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
+    FAAMessage = 'Subject: {}\n\n{}'.format("Fire Alarm Active", "A Fire Alarm Signal has been received at 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
     server.sendmail(myEmail, toEmail, FAAMessage)
 
 def fireAlarmRestore():
@@ -41,7 +41,7 @@ def fireAlarmRestore():
     server.sendmail(myEmail, toEmail, FARMessage)
 
 def troubleMonitorAlarm():
-    TMAMessage = 'Subject: {}\n\n{}'.format("Trouble Monitor Alarm", "A Trouble Monitor Alarm Signal has been recieved from 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
+    TMAMessage = 'Subject: {}\n\n{}'.format("Trouble Monitor Alarm", "A Trouble Monitor Alarm Signal has been received from 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
     server.sendmail(myEmail, toEmail, TMAMessage)
 
 def troubleMonitorRestore():
@@ -49,7 +49,7 @@ def troubleMonitorRestore():
     server.sendmail(myEmail, toEmail, TMRMessage)
 
 def supervisoryAlarmActive():
-    SAAMessage = 'Subject: {}\n\n{}'.format("Supervisory Monitor Active", "A Supervisory Signal has been recieved from 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
+    SAAMessage = 'Subject: {}\n\n{}'.format("Supervisory Monitor Active", "A Supervisory Signal has been received from 123 EXAMPLE ST. MYTOWN, STATE. ZIPCODE")
     server.sendmail(myEmail, toEmail, SAAMessage)
 
 def supervisoryAlarmRestore():
