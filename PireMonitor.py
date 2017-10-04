@@ -1,5 +1,5 @@
 #####################################################
-#                PireMonitor Beta 1.0               #
+#                PireMonitor Beta 1.4               #
 #               Designed by Zach Fleck              #
 # https://bitbucket.org/TheAlmightyZach/piremonitor #
 #####################################################
